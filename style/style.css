@@ -1,4 +1,5 @@
 body {
+  height:50%;
   color: white;
   background-image: url("bg_unsharp.png");
   background-color: #7289da;
@@ -8,17 +9,27 @@ body {
   font-family: Lato, Arial;
   text-align: center;
   margin: 20;
+  zoom: 1;
 }
 
 img {
   border-radius: 25px;
   transition: all .55s ease-in-out;
+  max-width: 14.5%;
+}
+
+.igh {
+  max-width: 6.3%;
 }
 
 .igh:hover {
   transform: scale(1.232);
   /*background: #292742;*/
   background: rgba(41,39,66,0.9999);
+}
+
+.teams {
+  min-width: 2200px;
 }
 
 /*.subs {
