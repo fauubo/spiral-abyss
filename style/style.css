@@ -13,13 +13,14 @@ body {
 }
 
 img {
-  border-radius: 25px;
+  border-radius: 15%;
   transition: all .55s ease-in-out;
-  max-width: 14.5%;
+  max-width: 13.3%;
 }
 
 .igh {
-  max-width: 6.3%;
+  max-width: 6%;
+  aspect-ratio: 1 / 1.05;
 }
 
 .igh:hover {
@@ -28,11 +29,15 @@ img {
   background: rgba(41,39,66,0.9999);
 }
 
-.teams {
-  min-width: 2200px;
+.empty{
+  margin-bottom: 4.5%;
 }
 
-/*.subs {
+/*.teams {
+  max-width: 150%;
+}
+
+.subs {
   position: relative;
   transition: all .2s ease-in-out;
 }
@@ -40,50 +45,50 @@ img {
 img.subs:hover {
   transform: scale(1.232);
   background: #292742;
-}*/
+}
 
 .audio {
   right: 5;
   bottom: 5;
-}
+}*/
 
 .txtbg {
   border: 5px solid #f5ebdc;
   border-radius: 25px;
   background: rgba(41,39,66,0.8);
   text-align: center;
-  margin-left: 300px;
-  margin-right: 300px;
-  margin-bottom: 105px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 5%;
   padding-left: 75px;
   padding-right: 75px;
 }
 
 h1 {
-  padding-top: 50px;
-  padding-bottom: 20px;
+  padding-top: 2%;
+  padding-bottom: 0.5%;
   color: #eeeeee;
-  font-size:50pt;
+  font-size: 4vw;
 }
 
 h2 {
-  font-size:30pt;
-  padding-bottom: 35px;
+  font-size: 2.6vw;
+  padding-bottom: 2%;
   color: #eeeeee;
 }
 
 h3 {
-  font-size:20pt;
-  padding-bottom: 20px;
+  font-size:1.2vw;
+  padding-bottom: 0.5%;
 }
 
 h4 {
   color: #eeeeee;
-  font-size:50pt;
+  font-size: 4vw;
 }
 
 h5 {
-  font-size:30pt;
+  font-size: 2vw;
   color: #eeeeee;
   text-align: justify;
 }
@@ -91,28 +96,28 @@ h5 {
 box {
   /*background-color: #292742;*/
   background: rgba(41,39,66,0.92);
-  border: 5px solid #f5ebdc;
+  border: 3pt solid #f5ebdc;
   border-radius: 25px;
-  padding-top: 180px;
-  padding-bottom: 30px;
-  padding-left: 40px;
-  padding-right: 40px;
-  margin-left: 10px;
-  margin-right: 10px;
+  padding-top: 7.5%;
+  padding-bottom: 1.1%;
+  padding-left: 1.8%;
+  padding-right: 1.8%;
+  margin-left: 0.4%;
+  margin-right: 0.4%;
 }
 
 box2 {
   background-color: #a3692f;
-  border: 2px solid #f5ebdc;
-  border-radius: 25px;
-  padding-top: 150px;
-  margin: 10px;
+  border: 1.5pt solid #f5ebdc;
+  border-radius: 15%;
+  padding-top: 6%;
+  margin: 0.38%;
 }
 
 box3 {
   background-color: #7a62a3;
-  border: 2px solid #f5ebdc;
-  border-radius: 25px;
-  padding-top: 150px;
-  margin: 10px;
+  border: 1.5pt solid #f5ebdc;
+  border-radius: 15%;
+  padding-top: 6%;
+  margin: 0.38%;
 }
