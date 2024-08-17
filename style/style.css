@@ -18,6 +18,27 @@ img {
   max-width: 13.3%;
 }
 
+a:link {
+  color: #b2dcdc;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #CDA3FF;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 .igh {
   max-width: 6%;
   aspect-ratio: 1 / 1.05;
